@@ -1,6 +1,16 @@
+header {
+  background-color: purple;
+}
+
 .nav {
     display: flex;
     justify-content: center;
     gap: 10%;
     padding: 2em;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
