@@ -18,14 +18,23 @@ body {
 }
 
 .contenedor{
+    /* Cambié esto para que quedara el mapa grande
     width: 150px;
     height: 150px;
+    */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10%;   
+    width: 80%;
+    height: auto;
 }
 
 img{
     object-fit: contain;
     width: 100%;
     height: 100%;
+
 }
 .imagenmapa {
     width: 40%;
